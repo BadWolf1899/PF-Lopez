@@ -1,0 +1,388 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.containerIsla {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/islaflores.jpg");
+  width: 100vw;
+  height: 35vw;
+  background-color: rgb(0, 0, 39);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+}
+@media only screen and (min-width: 768px) {
+  .containerIsla {
+    height: 35vw;
+  }
+}
+.containerIsla h1 {
+  text-align: center !important;
+  text-decoration: none !important;
+  font-family: "Montserrat", sans-serif !important;
+  color: #f5f8fb !important;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75) !important;
+}
+.containerIsla h1:hover {
+  text-shadow: 2px 2px 10px rgb(0, 247, 255) !important;
+  text-decoration: none !important;
+}
+.containerIsla h1:visited {
+  text-decoration: none !important;
+  color: #f5f8fb !important;
+}
+@media only screen and (min-width: 768px) {
+  .containerIsla h1 {
+    font-size: 4vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .containerIsla h1 {
+    font-size: 5vw;
+  }
+}
+.containerIsla a {
+  text-decoration: none !important;
+  color: #f5f8fb !important;
+}
+.containerIsla a:hover {
+  text-shadow: 2px 2px 10px rgb(0, 247, 255) !important;
+  text-decoration: none !important;
+}
+.containerIsla a:visited {
+  text-decoration: none !important;
+  color: #f5f8fb !important;
+}
+
+.containerPaseo {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/charter3.png");
+  width: 100vw;
+  height: 35vw;
+  background-color: rgb(0, 0, 39);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+}
+@media only screen and (min-width: 768px) {
+  .containerPaseo {
+    height: 35vw;
+  }
+}
+.containerPaseo h1 {
+  text-align: center !important;
+  text-decoration: none !important;
+  font-family: "Montserrat", sans-serif !important;
+  color: #f5f8fb !important;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75) !important;
+}
+.containerPaseo h1:hover {
+  text-shadow: 2px 2px 10px rgb(0, 247, 255) !important;
+  text-decoration: none !important;
+}
+.containerPaseo h1:visited {
+  text-decoration: none !important;
+  color: #f5f8fb !important;
+}
+@media only screen and (min-width: 768px) {
+  .containerPaseo h1 {
+    font-size: 4vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .containerPaseo h1 {
+    font-size: 5vw;
+  }
+}
+.containerPaseo a {
+  text-decoration: none !important;
+  color: #f5f8fb !important;
+}
+.containerPaseo a:hover {
+  text-shadow: 2px 2px 10px rgb(0, 247, 255) !important;
+  text-decoration: none !important;
+}
+.containerPaseo a:visited {
+  text-decoration: none !important;
+  color: #f5f8fb !important;
+}
+
+.containerPesca {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/pesca.jpg");
+  width: 100vw;
+  height: 35vw;
+  background-color: rgb(0, 0, 39);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+}
+@media only screen and (min-width: 768px) {
+  .containerPesca {
+    height: 35vw;
+  }
+}
+.containerPesca h1 {
+  text-align: center !important;
+  text-decoration: none !important;
+  font-family: "Montserrat", sans-serif !important;
+  color: #f5f8fb !important;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75) !important;
+}
+.containerPesca h1:hover {
+  text-shadow: 2px 2px 10px rgb(0, 247, 255) !important;
+  text-decoration: none !important;
+}
+.containerPesca h1:visited {
+  text-decoration: none !important;
+  color: #f5f8fb !important;
+}
+@media only screen and (min-width: 768px) {
+  .containerPesca h1 {
+    font-size: 4vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .containerPesca h1 {
+    font-size: 5vw;
+  }
+}
+.containerPesca a {
+  text-decoration: none !important;
+  color: #f5f8fb !important;
+}
+.containerPesca a:hover {
+  text-shadow: 2px 2px 10px rgb(0, 247, 255) !important;
+  text-decoration: none !important;
+}
+.containerPesca a:visited {
+  text-decoration: none !important;
+  color: #f5f8fb !important;
+}
+
+.containerCharter {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/charter.jpg");
+  width: 100vw;
+  height: 35vw;
+  background-color: rgb(0, 0, 39);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+}
+@media only screen and (min-width: 768px) {
+  .containerCharter {
+    height: 35vw;
+  }
+}
+.containerCharter h1 {
+  text-align: center !important;
+  text-decoration: none !important;
+  font-family: "Montserrat", sans-serif !important;
+  color: #f5f8fb !important;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75) !important;
+}
+.containerCharter h1:hover {
+  text-shadow: 2px 2px 10px rgb(0, 247, 255) !important;
+  text-decoration: none !important;
+}
+.containerCharter h1:visited {
+  text-decoration: none !important;
+  color: #f5f8fb !important;
+}
+@media only screen and (min-width: 768px) {
+  .containerCharter h1 {
+    font-size: 4vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .containerCharter h1 {
+    font-size: 5vw;
+  }
+}
+.containerCharter a {
+  text-decoration: none !important;
+  color: #f5f8fb !important;
+}
+.containerCharter a:hover {
+  text-shadow: 2px 2px 10px rgb(0, 247, 255) !important;
+  text-decoration: none !important;
+}
+.containerCharter a:visited {
+  text-decoration: none !important;
+  color: #f5f8fb !important;
+}
+
+.containerContacto {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/nosotros.png");
+  width: 100vw;
+  height: 35vw;
+  background-color: rgb(0, 0, 39);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+}
+@media only screen and (min-width: 768px) {
+  .containerContacto {
+    height: 35vw;
+  }
+}
+.containerContacto h1 {
+  text-align: center !important;
+  text-decoration: none !important;
+  font-family: "Montserrat", sans-serif !important;
+  color: #f5f8fb !important;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75) !important;
+}
+@media only screen and (min-width: 768px) {
+  .containerContacto h1 {
+    font-size: 4vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .containerContacto h1 {
+    font-size: 5vw;
+  }
+}
+
+.descripcion {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none !important;
+  text-align: center;
+  color: rgb(31, 31, 31) !important;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  margin-top: 2vw;
+}
+@media only screen and (min-width: 768px) {
+  .descripcion {
+    font-size: 1vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .descripcion {
+    font-size: 3vw;
+  }
+}
+.descripcion i {
+  text-decoration: none !important;
+  text-align: center;
+  color: rgb(31, 31, 31) !important;
+}
+.descripcion a {
+  text-decoration: none !important;
+  text-align: center;
+  color: rgb(31, 31, 31) !important;
+}
+.descripcion h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  color: rgb(31, 31, 31);
+  padding-top: 2vh !important;
+}
+@media only screen and (min-width: 768px) {
+  .descripcion h1 {
+    font-size: 1.5vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .descripcion h1 {
+    font-size: 4.5vw;
+  }
+}
+.descripcion h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: rgb(31, 31, 31);
+  padding-top: 2vh !important;
+}
+@media only screen and (min-width: 768px) {
+  .descripcion h2 {
+    font-size: 1.3vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .descripcion h2 {
+    font-size: 4vw;
+  }
+}
+
+.mapa {
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  height: 20%;
+  width: 100%;
+}
+
+.footer {
+  bottom: 0;
+  width: 100vw;
+  height: 20vh;
+  overflow: auto;
+  background-color: rgb(5, 12, 33);
+}
+@media only screen and (min-width: 600px) {
+  .footer {
+    font-size: 1vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer {
+    font-size: 3vw;
+  }
+}
+.footer p {
+  color: rgb(236, 239, 244) !important;
+  text-align: center;
+  text-decoration: none !important;
+  font-family: "Roboto", sans-serif !important;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.footer p:hover {
+  text-decoration: none !important;
+  color: rgb(236, 239, 244);
+}
+.footer p:visited {
+  text-decoration: none !important;
+  color: rgb(236, 239, 244) !important;
+}
+.footer a {
+  color: rgb(236, 239, 244) !important;
+  text-align: center;
+  text-decoration: none !important;
+  font-family: "Roboto", sans-serif !important;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.footer a:hover {
+  text-decoration: none !important;
+  color: rgb(236, 239, 244);
+}
+.footer a:visited {
+  text-decoration: none !important;
+  color: rgb(236, 239, 244) !important;
+}
+
+/*# sourceMappingURL=styles.css.map */
